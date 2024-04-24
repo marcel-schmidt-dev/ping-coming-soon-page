@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Libre Franklin;
+    src: url('./LibreFranklin-VariableFont_wght.ttf');
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    max-width: 90px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.header {
+    color: #969696;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+.header span {
+    color: #15202A;
+    font-family: Libre Franklin;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.sub {
+    color: #15202A;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 100px;
+}
+
+form input {
+    margin-right: 16px;
+    width: 100%;
+    border: 1px solid #C2D3FF;
+    border-radius: 55px;
+    padding: 0 30px;
+    color: #B8C7ED;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+form input::placeholder,
+form input:-ms-input-placeholder,
+form input::-ms-input-placeholder {
+    color: #B8C7ED;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    opacity: 1;
+}
+
+form button {
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 18px 62px;
+    background: #4C7BF3;
+    border-radius: 55px;
+    min-width: 200px;
+}
+
+.dashboard{
+    max-width: 640px;
+    margin-bottom: 72px;
+}
+
+.footer .icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.footer .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(76, 123, 243, 0.15);
+    border-radius: 50%;
+}
+
+.footer .icon svg{
+    height: 14px;
+    fill: #4C7BF3;
+}
+
+.footer .icon:hover{
+    background-color: #4C7BF3;
+}
+
+.footer .icon:hover svg{
+    fill: #fff;
+}
+
+.footer div:not(.icons){
+    font-family: Libre Franklin;
+    font-weight: lighter;
+}
